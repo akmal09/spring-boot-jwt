@@ -1,7 +1,16 @@
 SPRING JWT AUTHENTICATION WITH ACCESS TOKEN AND REFRESH TOKEN
 
-Program Flow:
+[Program Flow ](https://drive.google.com/file/d/1yzPHbWcsAEQc5I9HZZRfOeQeaP6hsAz-/view?usp=sharing):
+---
 ![img_1.png](img_1.png)
+
+Access Token Flow:
+---
+![img_2.png](img_2.png)
+
+Refresh Token Flow:
+---
+![img_3.png](img_3.png)
 
 <b>Request Client auth:</b>\n
 

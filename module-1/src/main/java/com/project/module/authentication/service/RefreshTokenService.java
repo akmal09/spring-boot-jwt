@@ -56,7 +56,7 @@ public class RefreshTokenService {
 
         String accessToken = jwtService.generateToken(userInfo);
 
-        return new ResponseEntity<>(new JwtTokenResponseDTO(accessToken, refreshToken.getToken()), HttpStatus.OK);
+        return new ResponseEntity<>(new JwtTokenResponseDTO(refreshToken.getToken(), accessToken), HttpStatus.OK);
     }
 
     public Boolean verifyExpiration(RefreshToken refreshToken){
